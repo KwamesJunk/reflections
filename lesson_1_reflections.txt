@@ -1,0 +1,51 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It's easy to see the mistake when it's right beside the correct version. 
+    Also, that area wasn't supposed to have changed, so it's suspect.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It's easy to revert mistakes and to find bugs like above.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Manually choosing commits makes it easier to navigate the commit history
+    as you can wait until logical points to commit. Also, you can make sure that
+    the code is functional.
+
+    However, it's easy to forget to commit, especially once you get into the flow.
+
+    Automatic commits mean that you'll never forget.
+
+    However, it's unlikely that the code will be functional every time. Also, the
+    commits won't have any logical relation to the code at all.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Google Docs aren't made for coding. They're more general, so very few people
+    would use the multiple-file-commit feature.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Use git log to find the commit(s) you want to look at. Use git diff to 
+    compare the commit(s) to earlier versions. Feed the log number from git log
+    into git diff to do it.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You can always go back and find out just when things went wrong. With diff
+    you can also figure out why things went wrong, in some cases. This means
+    that you can code with reckless abandon, being secure in the knowledge
+    that any breakages can be repaired.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I'll use it with the Udacity Android Developer course. I'll also use it
+    with the Android app that I'm going to make to help me test children at
+    the school I work at.
