@@ -27,7 +27,14 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    - one could use a different version control system (Subversion, etc.)
+    - each contributor could be assigned a file and no one else is allowed to
+    change that file (this is not very convenient)
+    - the team could have regular meetings to discuss conflicts before attempting
+    to build or after a failed build (this sounds awful)
+    
+    I can't really compare Git to Subversion yet, so I can't say which is harder.
+    Using Git is *much* easier than my other examples.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
